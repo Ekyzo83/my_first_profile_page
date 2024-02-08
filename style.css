@@ -1,4 +1,494 @@
-.general {
-background-color: bisque;
-    
+
+  
+  
+
+nav{
+ margin-left: 50px;
+background-color: #0082e6;
+height: 75px;
+width: 1040px;
+margin-bottom: 0px;
+
 }
+label.logo{
+
+  color: white;
+  font-size: 20px;
+  line-height: 80px;
+  Padding: 0 0px
+  
+}
+
+nav ul{
+  float: right
+  
+  
+
+}
+
+Nav ul li{
+display: inline-block;
+line-height: 40px;
+margin: 0 5px
+
+
+}
+
+nav ul li a{
+
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+
+header {
+  background-color: #0082e6;
+  margin-left: 50px;
+  padding: 5px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 935px
+  
+
+    
+
+}
+
+.left {
+  margin-left: -100px;
+  color: white;
+
+}
+
+.right {
+  margin-right: 10px;
+  color: white;
+}
+
+
+li {
+    
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+}
+    ul {
+  text-align: right;
+  color: #fff;
+    }
+
+
+
+
+
+.container1 {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+     
+      background-color: bisque;
+      width: 1000px;
+      height: 350px;
+      margin-top: 0px;
+      margin-left: 50px;
+      margin-bottom: 0;
+
+      
+   background-image: url(nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+    
+
+    .container2 {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+     
+      background-color: rgb(243, 238, 243);
+      width: 1000px;
+      height: 200px;
+      margin-top: 0;
+      margin-left: 50px;
+      
+         
+   
+}
+    li {
+    
+    display: inline-block;   
+    font-size: 20px;
+}
+    ul {
+    list-style: none;
+  text-align: right;
+  color: #fff;
+  font-size: medium;
+
+   
+    }
+    
+    
+
+    .header2 {
+           
+            color: #101010;
+            padding: 10px;
+            display: flex;
+            align-items: top;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .separator {
+            height: 180px; /* Adjust the height of the vertical line */
+            width: 7px; /* Width of the vertical line */
+            background-color: #ad4776; /* Color of the vertical line */
+            margin: 0 15px; /* Margin for spacing */
+            margin-right: 50px;
+        }
+
+        .content2 {
+            padding: 10px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: 520;
+            text-align: top;
+            
+        }
+
+       
+        .header3 {
+           
+           color: #101010;
+           padding: 10px;
+           display: flex;
+           align-items: top;
+           font-size: 20px;
+           font-weight: bold;
+          
+       }
+
+
+       .container3 {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+     
+      background-color: rgb(243, 238, 243);
+      width: 1000px;
+      height: 700px;
+      margin-top: 0;
+      margin-left: 50px;
+      
+         
+   
+}
+    li {
+    
+    display: inline-block;   
+    font-size: 20px;
+}
+    ul {
+    list-style: none;
+  text-align: right;
+  color: #fff;
+  font-size: medium;
+
+   
+    }
+    
+    
+
+    .header2 {
+           
+            color: #101010;
+            padding: 10px;
+            display: flex;
+            align-items: top;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .separator2 {
+            height: 700px; /* Adjust the height of the vertical line */
+            width: 5px; /* Width of the vertical line */
+            background-color: #ad4776; /* Color of the vertical line */
+            margin: 0 20px; /* Margin for spacing */
+            margin-right: 50px;
+        }
+
+        .content3 {
+            margin: 0;
+            padding:0;
+            
+      display: grid;
+     gap: 10px;
+      height: 700px;
+      
+      
+    }
+
+    .big-box {
+      grid-row: span 2;
+      grid-column: span 2;
+      background-image: url(3258584.jpg) ;
+      background-size: cover;
+      
+      color: #fff; /* Set your desired text color */
+      display: flex;
+      align-items: top;
+      justify-content: top;     
+      width: 850px;
+      
+      
+    position:relative;
+    border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+}
+.bet_time {
+    position:absolute;
+    bottom:0;
+    right:0;
+      
+    }
+
+
+    .small-box1 {
+      background-image: url(marissa-grootes-vdaJJbls3xE-unsplash.jpg);
+      background-size: cover;
+      
+      background-color: #2ecc71; /* Set your desired background color */
+      color: #fff; /* Set your desired text color */
+      display: block;
+      align-items: center;
+      justify-content: center;
+      position:relative;
+      border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+}
+.small-box2 {
+     background-image: url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+      background-size: cover;
+      
+      background-color: #2ecc71; /* Set your desired background color */
+      color: #fff; /* Set your desired text color */
+      display: block;
+      align-items: center;
+      justify-content: center;
+      position:relative;
+      border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+}
+.small-box3 {
+      
+  background-image: url(matt-hoffman-Q0AM87PsYkE-unsplash.jpg);
+      background-size: cover;
+  background-color: #2ecc71; /* Set your desired background color */
+      color: #fff; /* Set your desired text color */
+      display: block;
+      align-items: center;
+      justify-content: center;
+      position:relative;
+      border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+}
+
+.small-box4 {
+
+     background-image: url(mathew-schwartz-iGheu30xAi8-unsplash.jpg);
+      background-size: cover;
+      background-color: #2ecc71; /* Set your desired background color */
+      color: #fff; /* Set your desired text color */
+      display: block;
+      align-items: center;
+      justify-content: center;
+      position:relative;
+      border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+}
+
+
+
+.bet_time {
+    position:absolute;
+    bottom:0;
+    right:0;
+    }
+        
+    
+        
+
+       
+        .header3 {
+           
+           color: #101010;
+           padding: 10px;
+           display: flex;
+           align-items: top;
+           font-size: 20px;
+           font-weight: bold;
+          
+       }
+
+       .box_inside{
+
+                      
+            width: 60px; /* Adjust the width of the small box as needed */
+            height: 45px; /* Adjust the height of the small box as needed */
+            background-color:  #cdd8e1; /* Set the background color of the small box */
+            position: absolute; /* Position the small box absolutely within the big box */
+            top: 70%; /* Move the small box down by 50% of the big box's height */
+            left: 0; /* Align the small box to the left of the big box */
+            transform: translateY(-50%); /* Adjust to vertically center the small box */
+            border-style: solid;
+            border-width: 1px;
+            border-color: grey;
+          
+      
+       }
+      
+
+
+       .container4 {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+     
+      background-color: rgb(243, 238, 243);
+      width: 1000px;
+      height: px;
+      margin-top: 0;
+      margin-left: 50px;
+       }
+       
+
+
+       .content4 {
+            padding: 0px;
+            padding-right: -50px;
+            margin-right: -80px;
+            text-align: right;
+            font-size: 20px;
+            font-weight: 520;
+            
+            
+        }
+
+         
+         .header4 {
+           
+           color: #101010;
+          margin-top: 0px;
+           margin-left: -145px;
+           word-wrap: break-word;
+           display: flex;
+           align-items: top;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       
+       
+       .separator4 {
+            height: 80px; /* Adjust the height of the vertical line */
+            width: 4.5px; /* Width of the vertical line */
+            background-color: #ad4776; /* Color of the vertical line */
+            margin: 0 15px; /* Margin for spacing */
+            margin-right: 50px;
+          }
+      
+h1{
+
+  color: rgb(107, 46, 46);
+ font-size: small;
+ font-weight: bold;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    /* mobile devices */
+    body {
+        
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /* small ipads and small android tablets */
+    body {
+        
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* laptops and and small screens */
+    body {
+      
+    }
+
+        h1, h2{
+        text-align: center;
+        color: green;
+    }
+    ul,li {
+        text-align: center;
+        color: white;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    /* large screens and desktops */
+    body {
+       display: blue
+    }
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape){
+    /* large LCD screens and beyond */
+    body {
+       
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 350x){
+    /* large screens and desktops */
+    body {
+       display: blue 
+    }
+}
+@media screen and (min-width: 150px) and (max-width: 170px){
+    /* large screens and desktops */
+    body {
+       display: blue 
+    }
+}
+
+ 
+  
+
+
+
+
+
+
